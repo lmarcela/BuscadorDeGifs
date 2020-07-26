@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AddCategory /> debe mostrar <AddCategory /> correctamente 1`] = `
+<form
+  className="w3-container"
+  onSubmit={[Function]}
+>
+  <p>
+    Buscar: 
+  </p>
+  <input
+    className="w3-input w3-border"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;

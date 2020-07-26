@@ -1,6 +1,5 @@
 import {getGifs} from '../../helpers/getGifs';
 
-
 describe('Pruebas en helper getGifs (fetch)',()=>{
 
     test('debe de traer 9 elementos', async() => {     

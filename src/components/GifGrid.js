@@ -4,6 +4,7 @@ import { useFetchGifs } from '../hooks/useFetchGifs';
 
 export const GifGrid = ({category}) => {
     const {data:imagenes, loading} = useFetchGifs(category);
+    
     return (
         <>
             <h3 className="animate__animated animate__fadeIn">{category}</h3>
@@ -13,9 +14,11 @@ export const GifGrid = ({category}) => {
                 {
                     imagenes.map((img) => (
                         <GifGridItem key={img.id} {...img}/>
-                    ))    
+                    )) 
                 }
             </div>}
+            
+            {!loading && imagenes.length===0 && <p>Sin resultados</p>}
         </>
     )
 }
