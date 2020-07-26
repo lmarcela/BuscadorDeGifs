@@ -9,3 +9,10 @@ GUIA:
 2. Descargar http server: npm install --global http-server
 3. correr proyecto de build: cd build > http-server -o
 4. subir a gitHubPages: coger carpeta build y renombrar a docs
+
+PRUEBAS:
+1. npm i --save-dev enzyme enzyme-adapter-react-16 --> Instalar Enzyme
+2. Configurar enzyme en setupTests.js
+3. npm install --save-dev enzyme-to-json --> Instalar Enzyme-to-json
+4. Configurar enzyme-to-json en setupTests.js
+5. npm run test --> Para correr todas las pruebas

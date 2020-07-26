@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifGridItem /> debe mostrar <GifGridItem /> correctamente 1`] = `
+<Fragment>
+  <div
+    className="w3-third"
+  >
+    <div
+      className="w3-card w3-center animate__animated animate__slideInUp animate__faster"
+    >
+      <img
+        alt="Prueba de Titulo"
+        src="https://imagen.jpg"
+        style={
+          Object {
+            "height": 200,
+            "maxWidth": "-webkit-fill-available",
+          }
+        }
+      />
+      <p>
+        Prueba de Titulo
+      </p>
+    </div>
+  </div>
+</Fragment>
+`;
