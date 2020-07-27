@@ -16,3 +16,4 @@ PRUEBAS:
 3. npm install --save-dev enzyme-to-json --> Instalar Enzyme-to-json
 4. Configurar enzyme-to-json en setupTests.js
 5. npm run test --> Para correr todas las pruebas
+6. npm install --save-dev @testing-library/react-hooks --> Instalar react-hooks-testing-library
